@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: hit-counter-lb
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   ports:
   - port: 80
     protocol: TCP
